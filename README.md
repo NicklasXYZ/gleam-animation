@@ -1,3 +1,8 @@
-# Gleam Language Logo Animation
+# Gleam Logo Animation
 
-Just a threejs animation...
+<center>
+
+![](preview/preview.png)
+
+Just a threejs Gleam animation...
+</center>
