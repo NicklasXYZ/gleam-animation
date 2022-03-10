@@ -18,11 +18,10 @@ function bundle() {
       })
     )
     .pipe(gulp.dest("./docs/"))
-    // .pipe(gulp.dest("./dist/"))
 }
 
 function watch() {
-  exec("reload -b --dir=dist --port=5000", (err, stdout) => {
+  exec("reload -b --dir=docs --port=5000", (err, stdout) => {
     if (err) throw err
   })
   return gulp.watch("src/**/*.ts", bundle)
